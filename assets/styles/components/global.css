@@ -1,0 +1,66 @@
+/* #region logo */
+.logo {
+  display: flex;
+}
+
+.logo .logo-tbc {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo .logo-tbc {
+    display: inline;
+  }
+
+  .logo .logo-concept {
+    display: none;
+  }
+}
+/* #endregion */
+
+.page-padding {
+  padding-left: var(--page-padding-x);
+  padding-right: var(--page-padding-x);
+}
+
+.large-text {
+  color: #141719;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.goto-link {
+  column-gap: 6px;
+  color: #182cc0 !important;
+  text-transform: uppercase;
+  flex: none;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: color .25s ease-in-out;
+  display: flex;
+}
+
+.goto-link:hover {
+  color: #3295ce !important;
+}
+
+.soc-button {
+  width: 40px;
+  height: 40px;
+  background-color: #f9fafa;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  transition: background-color .25s ease-in-out, color .25s ease-in-out;
+  display: flex;
+}
+
+.banner-image {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}

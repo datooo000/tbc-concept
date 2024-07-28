@@ -1,0 +1,40 @@
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.container {
+  max-width: var(--container-max-width);
+  width: 100%;
+}
+.fit-cover {
+  object-fit: cover;
+}
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.overflow-hidden {
+  overflow: hidden;
+}

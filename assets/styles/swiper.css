@@ -1,0 +1,15 @@
+.swiper-wrapper {
+  padding-bottom: 38px;
+}
+
+.swiper-wrapper * {
+  user-select: none;
+}
+
+.swiper-scrollbar {
+  height: 2px !important;
+}
+
+.swiper-scrollbar-drag {
+  background: #182cc0;
+}

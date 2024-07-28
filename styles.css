@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+
+  color: #555f62;
+  background-color: #f9fafa;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}

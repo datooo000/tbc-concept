@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'TBCRegular';
+  src: url('/assets/fonts/TBCXRegular.woff2');
+}
+@font-face {
+  font-family: 'TBCMedium';
+  src: url('/assets/fonts/TBCXMedium.woff2');
+}
+@font-face {
+  font-family: 'TBCBold';
+  src: url('/assets/fonts/TBCXBold.woff2');
+}
+

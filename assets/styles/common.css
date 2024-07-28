@@ -1,0 +1,24 @@
+.font-tbc-regular {
+  font-family: TBCRegular, sans-serif;
+}
+.font-tbc-medium {
+  font-family: TBCMedium, sans-serif;
+}
+.font-tbc-bold {
+  font-family: TBCBold, sans-serif;
+}
+
+a, 
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+p, h3 {
+  margin: 0;
+}
+
+.color-primary {
+  color: var(--color-primary) !important;
+}

@@ -1,0 +1,30 @@
+footer {
+  background-color: white;
+}
+
+footer > :first-child {
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+footer .footer-navigations {
+  width: 100%;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+footer .footer-navigations > div {
+  row-gap: 20px;
+}
+
+footer .copyright {
+  background-color: #fff;
+  border-top: 1px solid #eef1f1;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 12px;
+}
+
+footer .copyright > div {
+  column-gap: 20px;
+}
